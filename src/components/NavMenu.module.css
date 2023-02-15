@@ -1,0 +1,30 @@
+.nav{
+    margin-top: 4rem;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+hr{
+    border: none;
+    border-top: 1px solid var(--cor-8);
+    margin: 1.5rem 0;
+}
+
+.sair {
+    color: var(--cor-4);
+}
+.nav a,
+.sair {
+  display: block;
+  transition: 0.1s;
+}
+.nav a:hover,
+.sair:hover {
+  color: var(--cor-5);
+}
+.nav a + a,
+.sair {
+  margin-top: 1.5rem;
+}

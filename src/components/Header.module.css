@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 99;
+    width: 14rem;
+    height: calc(100% - 2rem);
+    top: 1rem;
+    left: 1rem;
+    padding: 2rem 0;
+}
+.api,
+.by {
+  padding: 0 1.5rem;
+}
+.api {
+  margin-bottom: 1.5rem;
+  margin-top: 5rem;
+}
+
+.api a,
+.by a {
+  color: var(--cor-5);
+}
+
+.logo {
+  color: var(--cor-5);
+  margin: 0 auto;
+  font-weight: 700;
+}
