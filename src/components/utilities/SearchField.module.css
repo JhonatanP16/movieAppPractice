@@ -1,0 +1,31 @@
+.container_search{
+    position: relative;
+    max-width: 22rem;
+    margin-right: auto;
+    width: 100%;
+}
+.search{
+    padding-right: 2rem;
+    width: 100%;
+}
+.form {
+    position: relative;
+    width: 100%;
+}
+.input_search {
+    position: relative;
+    
+}
+.input_search::after {
+    content: "";
+    background: url("../../assets/search.svg");
+    position: absolute;
+    display: block;
+    right: 1rem;
+    top: 0.8rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background-size: 0.8rem;
+    background-position: center;
+    z-index: 9;
+}

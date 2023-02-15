@@ -1,0 +1,25 @@
+.header_entrada{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    font-weight: 700;
+}
+
+.entrar {
+    transition: 0.2s;
+  }
+
+.entrar:hover {
+    color: var(--cor-5);
+}
+  
+.btn_padrao {
+    margin-left: 2rem;
+    white-space: nowrap;
+    background-color: cyan;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.entrar {
+   margin-right: 2rem;
+}

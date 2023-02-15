@@ -2,14 +2,15 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import classes from './NavMenu.module.css'
 const NavMenu = () => {
+    const classActive = ({isActive}) => isActive ? classes.active : ''; 
   return (
     <nav className={classes.nav}>
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/movies">Todos Films</NavLink>
+        <NavLink to="/" className={classActive}>Home</NavLink>
+        <NavLink to="/movies" className={classActive}>Todos Films</NavLink>
         <hr />
-       <a href="#">Cadastre</a>
-       <NavLink to="/login">Entrar</NavLink>
-       <NavLink to="/account">Sua conta</NavLink>
+       <a href="#">Registro</a>
+       <NavLink to="/login" className={classActive}>Entrar</NavLink>
+       <NavLink to="/account">Su cuenta</NavLink>
        <button className={classes.sair}>
         Salir
        </button>

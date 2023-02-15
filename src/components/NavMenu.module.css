@@ -28,3 +28,20 @@ hr{
 .sair {
   margin-top: 1.5rem;
 }
+.active{
+  color: var(--cor-5);
+  position: relative;
+}
+.active::after{
+  content: "";
+  background: var(--cor-5);
+  height: 1.5rem;
+  width: 3px;
+  display: block;
+  position: absolute;
+  right: -1.5rem;
+  top: calc(50% - 0.75rem);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  box-shadow: 0 0 30px 0 var(--cor-5);
+}
